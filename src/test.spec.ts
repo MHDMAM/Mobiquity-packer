@@ -5,7 +5,6 @@ import { expect, assert } from 'chai';
 const Mobiquity = com.mobiquity.packer.Packer;
 
 
-const PATH = 'D:\\Dev\\Mobiquity test\\skeleton_javascript\\resources\\example_input';
 // const PATH : string= '';
 if (!PATH|| PATH&& PATH.length == 0) throw new Error('Please Update example_input Path file.');
 
